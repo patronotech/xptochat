@@ -288,7 +288,7 @@ const MainListItems = (props) => {
         yes={() => (
           <ListItemLink
             to="/"
-            primary="Dashboard"
+            primary={i18n.t("mainDrawer.listItems.dashboard")}
             icon={<DashboardOutlinedIcon />}
           />
         )}

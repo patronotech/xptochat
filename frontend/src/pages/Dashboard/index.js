@@ -564,7 +564,7 @@ const Dashboard = () => {
                     variant="h6"
                     paragraph
                   >
-                    Novos Contatos
+                    Novos Leads
                   </Typography>
                   <Grid item>
                     <Typography

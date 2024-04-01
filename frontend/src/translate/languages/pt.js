@@ -157,7 +157,7 @@ const messages = {
         message: "Leia o QrCode para iniciar a sessão",
       },
       contacts: {
-        title: "Contatos",
+        title: "Audiência",
         toasts: {
           deleted: "Contato excluído com sucesso!",
 		  deletedAll: "Todos contatos excluídos com sucesso!",
@@ -392,7 +392,8 @@ const messages = {
         },
         tabs: {
           open: { title: "Abertas" },
-          closed: { title: "Resolvidos" },
+          group: { title: "Grupo" },
+          closed: { title: "Finalizados" },
           search: { title: "Busca" },
         },
         search: {
@@ -436,11 +437,11 @@ const messages = {
       },
       mainDrawer: {
         listItems: {
-          dashboard: "Dashboard",
+          dashboard: "Painel de controle",
           connections: "Conexões",
           tickets: "Atendimentos",
           quickMessages: "Respostas Rápidas",
-          contacts: "Contatos",
+          contacts: "Audiência",
           queues: "Filas & Chatbot",
           tags: "Tags",
           administration: "Administração",
