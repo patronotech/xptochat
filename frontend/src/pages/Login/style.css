@@ -139,7 +139,7 @@ body {
   width: 100%;
   border-radius: 30px;
 }
-.MuiButton-root {
+.MuiButton-containedPrimary {
   background-color: #5362f9 !important;
 }
 .link-enter:hover {
