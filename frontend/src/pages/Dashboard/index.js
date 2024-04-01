@@ -53,6 +53,7 @@ import Filters from "./Filters";
 import { isEmpty } from "lodash";
 import moment from "moment";
 import { ChartsDate } from "./ChartsDate";
+import {i18n} from "../../translate/i18n";
 
 const useStyles = makeStyles((theme) => ({
   container: {
@@ -411,7 +412,7 @@ const Dashboard = () => {
                     variant="h6"
                     paragraph
                   >
-                    Em Conversa
+                    Em Atendimento
                   </Typography>
                   <Grid item>
                     <Typography
